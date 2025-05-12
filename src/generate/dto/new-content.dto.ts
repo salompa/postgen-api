@@ -8,12 +8,13 @@ interface Iurl {
 }
 
 interface IPromptParams {
-     tom: string;
-  estilo: string;
-  publico: string;
+        tom: string;
+  genero: string;
+  idade: string;
   formato: string;
   inclua: string;
   evite: string;
+  tema: string;
   tipos_de_conteudo: categorias[];
   redes_sociais: redes_sociais[];   
 
